@@ -11,13 +11,13 @@ const [fieldName, setFieldName]=useState({
    
     var name = event.target.value;
     setFieldName(name);
-    // console.log(name);
+   
   }
   return (
     <>
             <div className="container">
                 <div className="brand-logo"></div>
-                <div className="brand-title">TWITTER</div>
+                <div className="brand-title">TWITTERs</div>
                 <div className="inputs">
                {
                 Array.map((param)=>{
